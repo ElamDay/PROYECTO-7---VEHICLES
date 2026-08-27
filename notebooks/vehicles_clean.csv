@@ -9944,7 +9944,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 7500,2005,CHEVROLET SILVERADO,good,8,gas,153108,automatic,pickup,unknown,1,2018-08-07,29,13
 13900,2010,CHEVROLET SILVERADO 2500HD,good,8,gas,173210,automatic,pickup,white,1,2018-10-12,68,8
 15900,2011,FORD F-150,excellent,8,gas,83755,automatic,pickup,unknown,1,2018-11-07,57,7
-23900,2008,FORD F250,excellent,6,gas,47180,manual,truck,blue,0,2018-12-22,61,10
+23900,1955,FORD F250,excellent,6,gas,47180,manual,truck,blue,0,2018-12-22,61,63
 5200,2005,FORD EXPLORER,good,6,gas,98200,automatic,SUV,silver,0,2019-01-02,13,14
 2500,2004,VOLKSWAGEN JETTA,good,4,gas,161000,automatic,sedan,grey,0,2018-09-21,27,14
 23800,2019,NISSAN FRONTIER CREW CAB SV,good,6,gas,10899,other,pickup,silver,1,2019-04-12,11,0
@@ -14325,7 +14325,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 9000,2012,HONDA CIVIC,excellent,4,gas,49800,automatic,sedan,white,0,2018-05-16,80,6
 3500,2008,DODGE CHARGER,good,6,gas,135000,automatic,sedan,white,0,2018-06-06,44,10
 4250,2004,FORD EXPEDITION,good,8,gas,152000,automatic,SUV,blue,1,2018-09-29,22,14
-15000,2011,FORD F-150,excellent,8,gas,3565,manual,pickup,black,0,2019-02-16,13,8
+15000,1954,FORD F-150,excellent,8,gas,3565,manual,pickup,black,0,2019-02-16,13,65
 3600,2010,FORD FUSION,excellent,4,gas,124568,automatic,sedan,red,0,2018-08-09,74,8
 14900,2013,TOYOTA SIENNA,excellent,6,gas,112158,automatic,mini-van,unknown,0,2018-05-09,19,5
 9900,2014,HYUNDAI SONATA,excellent,4,gas,71662,automatic,sedan,blue,0,2018-10-27,57,4
@@ -22031,7 +22031,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 22499,2017,FORD EDGE,excellent,4,gas,60259,automatic,SUV,grey,1,2019-03-15,46,2
 15950,2011,JEEP WRANGLER,excellent,6,gas,126606,manual,SUV,unknown,1,2018-06-16,81,7
 3950,2006,JEEP LIBERTY,excellent,6,gas,92000,automatic,SUV,black,1,2018-11-07,9,12
-21000,2010,CHEVROLET IMPALA,like new,8,gas,4000,automatic,sedan,red,0,2019-01-18,24,9
+21000,1948,CHEVROLET IMPALA,like new,8,gas,4000,automatic,sedan,red,0,2019-01-18,24,71
 3995,2007,CHEVROLET IMPALA,good,6,gas,121500,automatic,sedan,red,0,2019-02-19,103,12
 500,2003,SUBARU FORESTER,good,4,gas,177497,automatic,hatchback,green,1,2018-08-14,43,15
 4600,2011,FORD FUSION,excellent,4,gas,124000,automatic,sedan,unknown,0,2018-12-14,28,7
@@ -33147,8 +33147,8 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 33900,2012,CHEVROLET SUBURBAN,good,8,gas,17312,automatic,SUV,black,1,2019-04-08,20,7
 10076,2015,CHRYSLER 200,like new,4,gas,86686,automatic,sedan,silver,0,2019-02-16,72,4
 18995,2014,CHEVROLET TAHOE,excellent,8,gas,110817,automatic,SUV,white,0,2018-08-21,30,4
-12995,2008,GMC YUKON,good,8,gas,169328,automatic,SUV,black,0,2018-07-06,34,10
-12995,2009,CADILLAC ESCALADE,excellent,8,gas,169328,automatic,SUV,white,0,2018-06-24,25,9
+12995,1908,GMC YUKON,good,8,gas,169328,automatic,SUV,black,0,2018-07-06,34,110
+12995,1908,CADILLAC ESCALADE,excellent,8,gas,169328,automatic,SUV,white,0,2018-06-24,25,110
 3650,2006,VOLKSWAGEN JETTA,good,4,gas,110700,automatic,sedan,black,0,2018-06-01,87,12
 6500,2011,TOYOTA CAMRY,excellent,4,gas,142623,automatic,sedan,white,0,2018-10-15,107,7
 18950,2016,FORD MUSTANG,like new,6,gas,53998,automatic,coupe,white,0,2018-05-28,30,2
@@ -33950,7 +33950,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 12999,2010,TOYOTA PRIUS,excellent,4,hybrid,95080,automatic,sedan,red,0,2018-09-08,44,8
 3874,2005,CHEVROLET COLORADO,good,5,gas,162252,manual,pickup,yellow,0,2019-02-15,77,14
 29995,2015,RAM 1500,good,8,gas,38941,automatic,pickup,unknown,1,2018-07-28,76,3
-5000,2011,FORD F-150,excellent,6,gas,30000,manual,pickup,purple,0,2018-11-22,10,7
+5000,1936,FORD F-150,excellent,6,gas,30000,manual,pickup,purple,0,2018-11-22,10,82
 3495,2001,FORD F-150,good,8,gas,185840,automatic,pickup,unknown,1,2018-06-19,55,17
 999,1996,FORD EXPLORER,good,6,gas,221074,automatic,SUV,red,1,2019-04-06,16,23
 39500,2013,JEEP WRANGLER UNLIMITED,excellent,6,gas,28000,automatic,SUV,black,1,2018-10-12,23,5
@@ -35817,7 +35817,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 5995,2003,FORD F-150,good,6,gas,156440,automatic,truck,red,1,2019-03-25,31,16
 31995,2015,CADILLAC ESCALADE,good,8,gas,103577,automatic,SUV,black,0,2018-08-18,17,3
 8800,2014,FORD TAURUS,excellent,4,gas,128752,automatic,sedan,grey,0,2018-10-03,67,4
-44900,2008,CHEVROLET SUBURBAN,good,8,gas,1800,automatic,wagon,orange,0,2018-08-19,10,10
+44900,1949,CHEVROLET SUBURBAN,good,8,gas,1800,automatic,wagon,orange,0,2018-08-19,10,69
 24000,2012,JEEP WRANGLER,excellent,6,gas,85566,manual,SUV,silver,1,2019-04-12,39,7
 29995,2015,RAM 1500,good,8,gas,38941,automatic,pickup,grey,1,2018-11-13,34,3
 6600,2002,FORD F-150,excellent,8,gas,259000,automatic,pickup,unknown,1,2018-06-08,13,16
@@ -38811,7 +38811,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 1798,1997,HYUNDAI SONATA,excellent,4,gas,171000,manual,sedan,blue,0,2018-09-29,23,21
 2998,2004,TOYOTA CAMRY,excellent,4,gas,230000,automatic,sedan,silver,0,2018-09-07,14,14
 4998,2012,DODGE GRAND CARAVAN,excellent,6,gas,158000,automatic,mini-van,grey,0,2018-11-26,100,6
-35000,2010,CHEVROLET IMPALA,excellent,8,gas,3184,automatic,coupe,black,0,2018-05-19,33,8
+35000,1958,CHEVROLET IMPALA,excellent,8,gas,3184,automatic,coupe,black,0,2018-05-19,33,60
 7998,2013,CHEVROLET CAMARO,excellent,8,gas,90000,manual,convertible,black,0,2018-10-15,40,5
 7995,2004,FORD F-250,excellent,8,diesel,156640,automatic,truck,unknown,1,2019-04-09,4,15
 3750,2006,VOLKSWAGEN JETTA,excellent,4,gas,146000,automatic,sedan,white,0,2018-11-30,53,12
@@ -44873,7 +44873,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 11500,2011,SUBARU IMPREZA,like new,4,gas,91000,manual,hatchback,unknown,1,2018-05-08,90,7
 12500,2003,JEEP WRANGLER,good,6,gas,150000,manual,SUV,white,1,2019-01-27,29,16
 8995,1989,CHEVROLET CORVETTE,like new,8,gas,119213,automatic,coupe,grey,0,2018-11-27,16,29
-18000,2011,FORD F-150,good,8,gas,114074,manual,other,silver,0,2018-11-18,59,7
+18000,1929,FORD F-150,good,8,gas,114074,manual,other,silver,0,2018-11-18,59,89
 5900,2003,TOYOTA TACOMA,good,6,gas,195000,automatic,pickup,white,0,2018-12-18,10,15
 25000,2014,GMC SIERRA 1500,excellent,8,gas,43648,automatic,truck,brown,0,2018-10-08,17,4
 6900,2010,CHRYSLER TOWN & COUNTRY,good,6,gas,139561,automatic,mini-van,black,0,2018-11-16,20,8
@@ -47590,7 +47590,7 @@ price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint
 5800,1981,CHEVROLET SILVERADO,good,8,gas,10000,automatic,pickup,grey,0,2018-07-10,22,37
 3300,1996,FORD RANGER,good,6,gas,150000,automatic,truck,white,0,2018-08-30,13,22
 9400,2015,NISSAN ALTIMA,excellent,4,gas,88000,automatic,sedan,unknown,0,2018-08-12,15,3
-37900,2010,CHEVROLET IMPALA,good,8,gas,62799,automatic,coupe,unknown,0,2018-08-11,10,8
+37900,1958,CHEVROLET IMPALA,good,8,gas,62799,automatic,coupe,unknown,0,2018-08-11,10,60
 27400,2017,FORD MUSTANG GT COUPE 2D,good,8,gas,22687,other,coupe,blue,0,2019-01-15,23,2
 9500,1989,CHEVROLET CORVETTE,good,8,gas,64000,automatic,coupe,blue,0,2018-07-12,89,29
 18800,2014,CHEVROLET CAMARO LT COUPE 2D,good,6,gas,90000,automatic,coupe,black,0,2018-06-26,69,4
