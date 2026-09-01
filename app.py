@@ -24,7 +24,11 @@ if dark_mode:
         background-color: #161b22;
     }
 
-    [data-testid="stSidebar"] * {
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] label {
         color: white !important;
     }
 
@@ -32,35 +36,42 @@ if dark_mode:
         color: white !important;
     }
 
-   /* SELECTBOX - MODO OSCURO */
-   div[data-baseweb="select"] {
-        background-color: #262730 !important;
-    }
+  /* SELECTBOX - MODO OSCURO */
 
-    div[data-baseweb="select"] > div {
-        background-color: #262730 !important;
-        border-color: #555 !important;
-        color: white !important;
-    }
-    
-    div[data-baseweb="select"] div[role="combobox"] {
-        background-color: #262730 !important;
-        color: white !important;
-    }
-    
-    div[data-baseweb="select"] input {
-        color: white !important;
-        -webkit-text-fill-color: white !important;
-    }
-    
-    div[data-baseweb="select"] span {
-        color: white !important;
-    }
-        
-    div[data-baseweb="select"] svg {
-        fill: white !important;
-        color: white !important;
-    }
+div[data-baseweb="select"] {
+    background-color: white !important;
+}
+
+div[data-baseweb="select"] > div {
+    background-color: white !important;
+    border-color: #555 !important;
+    color: #262730 !important;
+}
+
+div[data-baseweb="select"] div[role="combobox"] {
+    background-color: white !important;
+    color: #262730 !important;
+}
+
+div[data-baseweb="select"] div[role="combobox"] * {
+    color: #262730 !important;
+    -webkit-text-fill-color: #262730 !important;
+}
+
+div[data-baseweb="select"] input {
+    color: #262730 !important;
+    -webkit-text-fill-color: #262730 !important;
+}
+
+div[data-baseweb="select"] span {
+    color: #262730 !important;
+    -webkit-text-fill-color: #262730 !important;
+}
+
+div[data-baseweb="select"] svg {
+    fill: #262730 !important;
+    color: #262730 !important;
+}
 
     /* Menú desplegable */
 
@@ -139,12 +150,7 @@ else:
     div[data-baseweb="select"] * {
         color: #262730 !important;
     }
-        
-    div[data-baseweb="select"] input {
-        color: #262730 !important;
-        -webkit-text-fill-color: #262730 !important;
-    }
-
+    
         </style>
         """,
         unsafe_allow_html=True
@@ -170,6 +176,9 @@ else:
     filtered_data = car_data[
         car_data['type'] == selected_type
     ]
+
+hist_button = st.sidebar.checkbox('Mostrar histograma')
+scatter_button = st.sidebar.checkbox('Mostrar gráfico de dispersión')
 
 st.header('Análisis de anuncios de vehículos')
 
@@ -222,40 +231,16 @@ col3.metric(
     f"{filtered_data['odometer'].mean():,.0f} mi"
 )
 
-hist_button = st.sidebar.checkbox('Mostrar histograma')
-
 st.divider()
 st.subheader('Distribución del millaje')
 
 if hist_button:
 
     fig = px.histogram(
-    filtered_data,
-    x='odometer',
-    template=plotly_template
-)
-
-    fig.update_layout(
-    paper_bgcolor=graph_bg,
-    plot_bgcolor=graph_bg,
-    font_color=graph_text
-)
-    st.plotly_chart(fig, width='stretch', theme=None)
-
-
-st.divider()
-st.subheader('Relación entre millaje y precio')
-
-scatter_button = st.sidebar.checkbox('Mostrar gráfico de dispersión')
-
-if scatter_button:
-
-    fig = px.scatter(
-    filtered_data,
-    x='odometer',
-    y='price',
-    template=plotly_template
-)
+        filtered_data,
+        x='odometer',
+        template=plotly_template
+    )
 
     fig.update_layout(
         paper_bgcolor=graph_bg,
@@ -264,3 +249,22 @@ if scatter_button:
     )
     st.plotly_chart(fig, width='stretch', theme=None)
 
+
+st.divider()
+st.subheader('Relación entre millaje y precio')
+
+if scatter_button:
+
+    fig = px.scatter(
+        filtered_data,
+        x='odometer',
+        y='price',
+        template=plotly_template
+    )
+
+    fig.update_layout(
+        paper_bgcolor=graph_bg,
+        plot_bgcolor=graph_bg,
+        font_color=graph_text
+    )
+    st.plotly_chart(fig, width='stretch', theme=None)
