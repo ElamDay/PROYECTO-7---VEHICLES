@@ -24,14 +24,6 @@ if dark_mode:
         background-color: #161b22;
     }
 
-    [data-testid="stSidebar"] h1,
-    [data-testid="stSidebar"] h2,
-    [data-testid="stSidebar"] h3,
-    [data-testid="stSidebar"] p,
-    [data-testid="stSidebar"] label {
-        color: white !important;
-    }
-
     h1, h2, h3, p, label {
         color: white !important;
     }
@@ -54,16 +46,6 @@ div[data-baseweb="select"] div[role="combobox"] {
 }
 
 div[data-baseweb="select"] div[role="combobox"] * {
-    color: #262730 !important;
-    -webkit-text-fill-color: #262730 !important;
-}
-
-div[data-baseweb="select"] input {
-    color: #262730 !important;
-    -webkit-text-fill-color: #262730 !important;
-}
-
-div[data-baseweb="select"] span {
     color: #262730 !important;
     -webkit-text-fill-color: #262730 !important;
 }
@@ -97,16 +79,6 @@ li[role="option"]:hover {
     color: white !important;
 }
 
-    .stButton > button {
-        background-color: #262730;
-        color: white;
-        border: 1px solid #555;
-    }
-
-    .stButton > button:hover {
-        background-color: #3a3b44;
-        color: white;
-    }
     </style>
     """,
     unsafe_allow_html=True
@@ -133,11 +105,6 @@ else:
         color: #262730 !important;
     }
 
-    div[data-baseweb="select"] div[role="combobox"] {
-        background-color: white !important;
-        color: #262730 !important;
-    }
-
     div[data-baseweb="select"] input {
         color: #262730 !important;
         -webkit-text-fill-color: #262730 !important;
@@ -147,10 +114,6 @@ else:
         color: #262730 !important;
     }
         
-    div[data-baseweb="select"] * {
-        color: #262730 !important;
-    }
-    
         </style>
         """,
         unsafe_allow_html=True
