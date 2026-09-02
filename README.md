@@ -2,6 +2,13 @@
 
 Proyecto desarrollado en el Bootcamp de Data Science de TripleTen.
 
+## Aplicación web
+
+La aplicación se encuentra desplegada en las siguientes plataformas:
+
+- **Render (despliegue principal):** https://proyecto-7-vehicles-misael-ramos.onrender.com
+- **Streamlit Community Cloud:** https://proyecto-7-vehicles-misaelramos.streamlit.app
+
 ## Descripción
 
 Esta aplicación web permite explorar un conjunto de datos de anuncios de venta de vehículos mediante visualizaciones interactivas.
